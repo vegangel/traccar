@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: traccar
+    env: docker
+    plan: free
+    branch: master
+    repo: https://github.com/vegangel/traccar
+    autoDeploy: true
